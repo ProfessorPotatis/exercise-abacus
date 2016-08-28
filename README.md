@@ -1,6 +1,6 @@
 # <i class="fa fa-laptop"></i> Kulramen
 <ul class="fa-ul fa-border exercise-info">
-  <li><i class="fa-li fa fa-signal level-a"></i>A-nivå</li>
+  <li><i class="fa-li fa fa-signal level-c"></i>C-nivå</li>
   <li><i class="fa-li fa fa-github"></i><a href="https://github.com/1dv021/exercise-abacus.git">https://github.com/1dv021/exercise-abacus.git</a></li>
 </ul>
 
