@@ -7,10 +7,18 @@
 
 'use strict';
 
-let Shape = require('./src/abacus.js');
+let abacus = require('./src/abacus.js');
+let sum = abacus.add(2, 5, 19);
+console.log(sum); // 26
 
-let shape = Shape.createRightTriangle(5);
-console.log(shape);
+sum = abacus.add(2, "21", 19);
+console.log(sum); // 42
 
-shape = Shape.createRightTriangle(10);
-console.log(shape);
+sum = abacus.add(2.5, "5", "3,5", "1.2"); // OBS! Både decimalkomma(,) och decimalpunkt(.) ska fungera
+console.log(sum); // 12.2
+
+sum = abacus.add(3, 8, 5, true);
+console.log(sum); // NaN
+
+sum = abacus.add(3, 8, 5, 'lorem ipsum');
+console.log(sum); // NaN
